@@ -168,10 +168,11 @@ td.wrap-c{white-space:normal;min-width:150px;line-height:1.7}
 .tw.center td.wrap-c{text-align:center}
 
 .gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
-.gal img{border-radius:12px;border:1px solid var(--line)}
+.gal img{width:100%;height:auto;border-radius:12px;border:1px solid var(--line)}
 .gal.sq img{aspect-ratio:1;object-fit:cover}
 .gal.fix4{grid-template-columns:repeat(4,1fr)}
-.lp{max-height:520px;overflow-y:auto;border-radius:14px;border:1px solid var(--line)}
+.lp{max-height:520px;overflow-y:auto;border-radius:14px;border:1px solid var(--line);text-align:center}
+.lp img{margin:0 auto}
 cap,figcaption{font-size:12.5px;color:var(--ink-2);margin-top:10px;line-height:1.75;
   display:block;font-weight:400}
 figure{margin:0}
